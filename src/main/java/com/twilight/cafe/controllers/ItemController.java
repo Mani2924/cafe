@@ -30,7 +30,7 @@ public class ItemController {
 	@GetMapping("/getText")
 	public String getText()
 	{
-		System.out.println("sample");
+	
 		return "Hello Wo";
 	}
 
