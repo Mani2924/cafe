@@ -25,7 +25,13 @@ public class ItemController {
 	
 	@Autowired
 	  private ModelMapper modelMapper;
-
+	
+	
+	@GetMapping("/getText")
+	public String getText()
+	{
+		return "Hello World";
+	}
 
 	@PostMapping("/addItem")
 	public Response addItems(@RequestBody ItemModel itemModel) {
