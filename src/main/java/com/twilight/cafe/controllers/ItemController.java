@@ -40,14 +40,6 @@ public class ItemController {
 		System.out.println(i);
 		System.out.println(i);
 		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
-		System.out.println(i);
 		return "Hello Wo";
 	}
 
