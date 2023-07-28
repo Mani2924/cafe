@@ -30,6 +30,24 @@ public class ItemController {
 	@GetMapping("/getText")
 	public String getText()
 	{
+		int i=0;
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
 		return "Hello Wo";
 	}
 
