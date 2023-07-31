@@ -30,7 +30,6 @@ public class ItemController {
 	@GetMapping("/getText")
 	public String getText()
 	{
-		int i=0;
 		return "Hello Wo";
 	}
 
