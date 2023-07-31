@@ -26,7 +26,13 @@ public class OrderItemController {
 		return response;
 	}
 	
+	@PostMapping("AddItem")
+	public Response addByItem(@RequestBody Token token) {
 	
+		Response response = orderItemService.addItem(token);
+		
+		return response;
+	}
 	
 	
 	
